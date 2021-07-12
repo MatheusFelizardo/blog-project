@@ -1,1 +1,64 @@
-// TODO
+
+.home_container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    color: #FFF;
+    header {
+        margin-top: 2rem;
+    }
+
+    .posts {
+        margin-top:5rem;
+        max-width: 700px;
+        .post {
+            cursor: pointer;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            &:hover {
+                box-shadow: 0 0 6px -1px rgba(255,255,255,.5);
+            }
+            h1 {
+                font-size: 28px;
+                color: #F8F8F8;
+                margin-bottom: .5rem;
+            }
+
+            span {
+                font-size: 18px;
+                color: #D7D7D7;
+            }
+
+            .infos {
+                margin-top: 1.5rem;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                color: #BBBBBB;
+
+                > div {
+                    display: flex;
+                    align-items: center;
+                    span {
+                        font-size: 14px;
+                    }
+        
+                    svg {
+                        margin-right: .5rem;
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .carregar_mais {
+        margin-top: 2rem;
+        background: transparent;
+        margin: none;
+        border: none;
+        font-size: 18px;
+        color: #FF57B2;
+        cursor: pointer;
+    }
+}
